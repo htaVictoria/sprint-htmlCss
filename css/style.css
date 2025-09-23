@@ -14,7 +14,6 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    height: auto;
 }
 
 header img{
@@ -25,9 +24,9 @@ header img{
 header nav {
     color: #1351d8;
     display: flex;
-    align-self: center;
+    justify-content: center;
+    align-self: flex-end;
     gap: 30px;
-    padding: 15px;
     height: fit-content;
 }
 
@@ -49,7 +48,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1%;
+    padding: 0.5%;
     height: fit-content;
 }
 
