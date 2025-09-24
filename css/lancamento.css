@@ -15,31 +15,65 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    height: fit-content;
+    padding: 2% 8%;
+
 }
 
 header img{
+    display: flex;
     position: absolute;
     left: 0;
+    top: 0;
 }
 
 header nav {
     color: #1351d8;
     display: flex;
     justify-content: center;
-    align-self: flex-end;
+    align-self: center;
     gap: 30px;
-    height: fit-content;
 }
 
 nav a{
         color: #1351d8;
         text-decoration: none;
 }
+
 main{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+}
+
+.videoLancamento{
+    display: flex;
+    justify-self: flex-start;
+    padding-inline: 100%;
+    background-color: black;
+
+
+}
+
+.modelosVeiculo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5rem;
+    padding: 2%;
+}
+
+.botaoComparar{
+    background-color: #1351d8;
+    color: white;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.info{
+    align-self: flex-end;
 }
 
 footer{

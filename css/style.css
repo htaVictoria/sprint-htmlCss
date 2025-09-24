@@ -7,27 +7,31 @@
 body{
     height: 100vh;
     display: grid;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 header{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    height: fit-content;
+    padding: 2% 8%;
+
 }
 
 header img{
+    display: flex;
     position: absolute;
     left: 0;
+    top: 0;
 }
 
 header nav {
     color: #1351d8;
     display: flex;
     justify-content: center;
-    align-self: flex-end;
+    align-self: center;
     gap: 30px;
-    height: fit-content;
 }
 
 nav a{
