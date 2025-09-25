@@ -42,9 +42,53 @@ nav a{
 
 main{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.imagem{
+    align-self: flex-start;
+}
+
+.formulario{
+    display: flex;
     flex-direction: column;
+    gap: 1rem;
+    width: 200%;
+    font-size: larger;
+}
+
+.formulario__camposFormulario{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 0.5rem;
+    
+
+}
+
+.formulario__camposFormulario__campo{
+    border-radius: 0.5rem;
+    height: 3rem;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+.formulario__camposFormulario__botao{
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 5rem;
+    align-self: flex-end;
+}
+
+.formulario__camposFormulario__botao:hover{
+    padding: 1.2rem 5.2rem;
 }
 
 footer{
@@ -62,8 +106,12 @@ footer{
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
+.copyright{
+    justify-self: center;
+}
 .imagem{
     justify-self: flex-start;
 }
